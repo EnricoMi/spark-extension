@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [UNRELEASED] - YYYY-MM-DD
+
+### Changes
+- Fix committing versions
+
 ## [2.14.0] - 2025-03-13
 
 ### Changes
