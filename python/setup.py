@@ -23,11 +23,11 @@ from setuptools.command.sdist import sdist
 
 
 jar_version = '2.14.2-3.5'
-scala_version = '2.13.8'
+scala_version = '2.12.18'
 scala_compat_version = '.'.join(scala_version.split('.')[:2])
 spark_compat_version = jar_version.split('-')[1]
 jar_file = f"spark-extension_{scala_compat_version}-{jar_version}.jar"
-version = jar_version.replace('SNAPSHOT', 'dev0').replace('-', '.')
+version = jar_version.replace('SNAPSHOT', 'dev0').replace('-', '.') + '.post0'
 
 # read the contents of the README.md file
 long_description = (Path(__file__).parent / "README.md").read_text()
